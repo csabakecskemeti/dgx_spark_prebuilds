@@ -1,12 +1,9 @@
-# dgx_spark_prebuilds
-prebuild libs for Nvidia DGX Spark
+# DGX Spark Prebuilt Binaries
 
-# decord
+This repository contains prebuilt packages optimized for NVIDIA DGX Spark (ARM64, CUDA 13).
 
-pip install https://github.com/csabakecskemeti/dgx_spark_prebuilds/raw/main/decord-0.6.0-cp312-cp312-linux_aarch64.whl
+## Available prebuilt packages
 
-## usecase 
-[Wan2.2](https://huggingface.co/Wan-AI/Wan2.2-S2V-14B) video generator model
-
-
+- [Decord (Python wheel)](decord/README.md)
+- [FFmpeg (ARM64)](ffmpeg/README.md)
 
